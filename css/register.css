@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  position: fixed;
+  left: 22px;
+  top: 20px;
+}
+
+.site-logo a {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-size: 22px;
+  font-family: sans-serif;
+  color: rgb(253, 167, 8) !important;
+  font-weight: 900; }
+  .site-logo a:hover {
+    text-decoration: none; }
+
+.site-blocks-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  min-height: 700px;
+  height: calc(100vh);
+}
+.login-box{
+  width: 700px;
+  background-color: rgba(202, 164, 113, 0.92);
+  color: #8d1506;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing:border-box;
+  padding: 5px 30px;
+  font-size: 17px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+  
+}
+
+h1{
+  text-align: center;
+  font-size: 25px;
+}
+.login-box p{
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login-box input{
+  width: 100%;
+  margin-bottom: 5px;
+}
+.login-box input[type="text"],input[type="number"],input[type="email"],input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid rgb(233, 8, 83);
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color:rgb(203, 244, 80);
+  font-size: 18px;
+}
+.login-box input[type="radio"]{
+  width: 5%;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid rgb(210, 164, 14);
+  background: transparent;
+  outline: none;
+  color:rgb(203, 244, 80);
+}
+.login-box input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 45px;
+  background: #fb2525;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border-radius: 15px;
+}
+.login-box input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #88ddf7;
+  color: #000;
+}

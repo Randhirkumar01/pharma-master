@@ -1,8 +1,8 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-.container{
+.container {
   position: fixed;
   left: 25px;
   top: 20px;
@@ -10,37 +10,39 @@
 
 .site-logo a {
   text-transform: uppercase;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   font-size: 22px;
   font-family: sans-serif;
-  color: rgb(253, 167, 8) !important;
-  font-weight: 900; }
-  .site-logo a:hover {
-    text-decoration: none; }
+  color: rgba(165, 202, 113, 0.92) !important;
+  font-weight: 900;
+}
+.site-logo a:hover {
+  text-decoration: none;
+}
 
 .site-blocks-cover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
-  min-height: 700px;
+  min-height: 100vh;
   height: calc(100vh);
 }
 
-.login-box{
+.login-box {
   width: 370px;
   height: 400px;
-  background-color: rgba(202, 164, 113, 0.92);
+  background-color: rgba(165, 202, 113, 0.92);
   color: #8d1506;
-  top: 64%;
+  top: 50%;
   left: 50%;
   position: absolute;
-  transform: translate(-50%,-50%);
-  box-sizing:border-box;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
   padding: 60px 30px;
-  border-radius:10px
+  border-radius: 10px;
 }
-.avatar{
+.avatar {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -48,35 +50,34 @@
   top: -13%;
   left: calc(50% - 50px);
 }
-h1{
+h1 {
   margin: 0;
   padding: 0 0 20px;
   text-align: center;
   font-size: 25px;
 }
-.login-box p{
+.login-box p {
   margin: 0;
   padding: 0;
   font-weight: bold;
   font-size: 22px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.login-box input{
+.login-box input {
   width: 100%;
   margin-bottom: 20px;
 }
-.login-box input[type="email"],input[type="password"]
-{
+.login-box input[type="email"],
+input[type="password"] {
   border: none;
   border-bottom: 1px solid white;
   background: transparent;
   outline: none;
   height: 40px;
-  color:#fff;
+  color: #fff;
   font-size: 16px;
 }
-.login-box input[type="submit"]
-{
+.login-box input[type="submit"] {
   border: none;
   outline: none;
   height: 40px;
@@ -85,18 +86,17 @@ h1{
   font-size: 20px;
   border-radius: 15px;
 }
-.login-box input[type="submit"]:hover
-{
+.login-box input[type="submit"]:hover {
   cursor: pointer;
   background: #88ddf7;
   color: #000;
 }
-.login-box a{
+.login-box a {
   font-size: 15px;
   line-height: 20px;
   color: rgb(107, 18, 18);
   margin-left: 0;
 }
-.login-box a:hover{
-  color: #ffc107;
+.login-box a:hover {
+  color: rgba(165, 202, 113, 0.92);
 }
